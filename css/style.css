@@ -29,7 +29,6 @@
 }
 
 .header__navListAnchor {
-    margin-right: 135px;
     color: #A5A5A5;
     opacity: 1;
     text-decoration: none;
@@ -37,12 +36,18 @@
     height: 100%;
     display: flex;
     align-items: center;
+    white-space: nowrap;
+}
+
+a.header__navListAnchor:nth-of-type(4) {
+    padding-right: 0;
 }
 
 .header__navList li {
     display: flex;
     height: 100%;
     letter-spacing: 3.28px;
+    padding-right: 135px;
 }
 
 .header__navListAnchor:hover {
@@ -89,6 +94,10 @@ a.header__navSpanAnchor {
     color: #000000;
     opacity: 1;
     font: normal 49px/57px 'Raleway';
+}
+
+.firstSection__backgroundPicture img {
+    width: 100%;
 }
 
 .firstSection__firstText {
@@ -139,7 +148,7 @@ p.firstSection__endingText {
     letter-spacing: 0;
     color: #A5A5A5;
     opacity: 1;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .firstSection__firstPictureImage {
